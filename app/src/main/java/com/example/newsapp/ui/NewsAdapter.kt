@@ -1,4 +1,4 @@
-package com.example.newsapp
+package com.example.newsapp.ui
 
 import android.content.Context
 import android.content.Intent
@@ -6,7 +6,9 @@ import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.newsapp.R
 import com.example.newsapp.databinding.NewsItemBinding
+import com.example.newsapp.model.Article
 import com.squareup.picasso.Picasso
 
 class NewsAdapter(
